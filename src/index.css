@@ -1,0 +1,85 @@
+body {
+    font-family: "Arial", sans-serif;
+    background: linear-gradient(135deg, #667eea, #764ba2);
+    color: white;
+    text-align: center;
+    padding: 20px;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .container {
+    background: rgba(255, 255, 255, 0.1);
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    width: 350px;
+    text-align: center;
+  }
+  
+  h1 {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  /* Mỗi ô có một màu khác nhau */
+  .input-box {
+    background: #ffcc80; /* Màu cam nhạt */
+    padding: 10px;
+    border-radius: 6px;
+    margin-bottom: 10px;
+    font-size: 16px;
+    text-align: center;
+  }
+  
+  .result {
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 15px;
+    padding: 10px;
+    background: #80deea; /* Màu xanh nhạt */
+    border-radius: 6px;
+  }
+  
+  button {
+    background: #ff9800;
+    color: white;
+    border: none;
+    padding: 12px;
+    border-radius: 8px;
+    font-size: 16px;
+    cursor: pointer;
+    margin-top: 10px;
+    width: 100%;
+    transition: all 0.3s ease;
+  }
+  
+  button:hover {
+    background: #e68900;
+    transform: scale(1.05);
+  }
+  
+  /* Thêm màu sắc cho từng phần */
+  .notification-box {
+    background: #f48fb1; /* Hồng nhạt */
+    padding: 10px;
+    border-radius: 6px;
+    margin-top: 10px;
+  }
+  
+  .share-box {
+    background: #a5d6a7; /* Xanh lá nhạt */
+    padding: 10px;
+    border-radius: 6px;
+    margin-top: 10px;
+  }
+  
+  .screenshot-box {
+    background: #d1c4e9; /* Tím nhạt */
+    padding: 10px;
+    border-radius: 6px;
+    margin-top: 10px;
+  }
+  
