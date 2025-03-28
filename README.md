@@ -1,37 +1,83 @@
+# 🚀 Capacitor + ReactJs - Midterm
 
-# Capacitor ReactJS Midterm - Hiển Thị Thời Gian
+📱 **Dự án Midterm sử dụng Capacitor và ReactJS để phát triển ứng dụng di động.**
 
-## Giới thiệu  
-Ứng dụng hiển thị thời gian hiện tại của người dùng, gửi thông báo, chia sẻ thời gian và chụp màn hình.  
+---
+## ✅ Yêu cầu hệ thống
+Trước khi bắt đầu, hãy đảm bảo bạn đã cài đặt các công cụ sau:
 
-## Yêu cầu hệ thống  
-- Node.js >= 14  
-- NPM >= 6  
-- Capacitor CLI  
-- Android Studio (để chạy trên Android)  
-- Xcode (để chạy trên iOS, chỉ dành cho macOS)  
+- 📌 **JDK 17** → [Tải tại đây](https://www.oracle.com/java/technologies/javase/jdk17-archive-downloads.html)
+- 📌 **Android SDK 35**
+- 📌 **Node.js & npm** (khuyên dùng phiên bản LTS)
+- 📌 **Android Studio** (nếu chạy trên Android)
 
-## Cài đặt  
+---
+## 🚀 Hướng dẫn cài đặt
 
+### 1️⃣ Clone source code
+Chạy lệnh sau để tải mã nguồn về máy:
 
-```sh
-git clone https://github.com/your-repo/capacitor-time-app.git  
-cd capacitor-time-app
+```bash
+git clone https://github.com/herin26it/capacitor-reactjs-midterm.git
+```
+### 2️⃣ Cài đặt dependencies  
+Di chuyển vào thư mục dự án và cài đặt các gói cần thiết:
+```bash
+cd capacitor-reactjs-midterm
 npm install
-npx cap sync
+```
+### 3️⃣  Chạy ứng dụng
 
-- Chạy ứng dụng
-+  Trên trình duyệt
-npm run dev
-+  Trên Android
-npm run build
+📌 **Mở ứng dụng trên Android bằng Capacitor:**
+
+```bash
 npx cap sync android
 npx cap open android
+```
+🔹 Lưu ý:
+- Nếu chạy trên Android, hãy đảm bảo thiết bị hoặc trình giả lập đã kết nối.
+- Nếu gặp lỗi thiếu thư viện, thử chạy:
+  ```bash
+    npm install 
+    npx cap sync
+    ```
+---
 
-Mở Android Studio và chạy ứng dụng trên thiết bị thật hoặc giả lập.
+## 📁 Cấu trúc thư mục
 
-Trên iOS (chỉ trên macOS)
-npm run build
-npx cap sync ios
-npx cap open ios
-Mở Xcode và chạy ứng dụng trên thiết bị thật hoặc giả lập.
+Dưới đây là cấu trúc thư mục chính của dự án:
+
+```
+📂 capacitor-reactjs-midterm
+├── 📁 src
+│   ├── 📁 assets          # Chứa hình ảnh, icon...
+│   ├── 📁 components      # Các component custom
+│   ├── 📁 hooks           # Custom hooks
+│   ├── 📄 App.tsx         # File chính của ứng dụng
+│   ├── 📄 main.tsx        # Entry point của ứng dụng
+│   ├── 📄 index.css       # File CSS chính
+├── 📄 package.json        # Dependencies và scripts
+├── 📄 capacitor.config.ts # Cấu hình Capacitor
+├── 📄 tsconfig.json       # Cấu hình TypeScript
+├── 📄 vite.config.ts      # Cấu hình Vite
+└── 📁 android             # Chứa project android được generate từ capacitor
+```
+---
+## 🎨 Giao diện ứng dụng  
+
+✨ **Dưới đây là một số ảnh chụp màn hình của ứng dụng:**  
+
+<p align="center">
+  <img src="src/assets/giaodien.jpg" alt="Giao diện 1" width="400">
+  <img src="src/assets/giaodien2.jpg" alt="Giao diện 2" width="400">
+  <img src="src/assets/giaodien3.jpg" alt="Giao diện 3" width="400">
+  <img src="src/assets/giaodien4.jpg" alt="Giao diện 3" width="400">
+</p>
+
+---
+## 🤝 Đóng góp & Liên hệ
+
+🔗 **GitHub:** [github.com/ron19102004](https://github.com/ron19102004)  
+📧 **Email:** [dungtna.22itb@vku.udn.vn](mailto:dungtna.22itb@vku.udn.vn)
+
+💡 Nếu bạn thấy dự án hữu ích, hãy **⭐ Star** repo để ủng hộ nhé! 🚀
