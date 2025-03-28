@@ -1,18 +1,18 @@
-# 🚀 Capacitor + ReactJs - Midterm
+#  Capacitor + ReactJs - Midterm hiển thị thời gian
 
-📱 **Dự án Midterm sử dụng Capacitor và ReactJS để phát triển ứng dụng di động.**
+📱 **Dự án sử dụng Capacitor và ReactJS để phát triển ứng dụng di động hiển thị thời gian hiện tại của người dùng, gửi thông báo, chia sẻ thời gian và chụp màn hình.  **
 
 ---
 ## ✅ Yêu cầu hệ thống
 Trước khi bắt đầu, hãy đảm bảo bạn đã cài đặt các công cụ sau:
 
-- 📌 **JDK 17** → [Tải tại đây](https://www.oracle.com/java/technologies/javase/jdk17-archive-downloads.html)
-- 📌 **Android SDK 35**
-- 📌 **Node.js & npm** (khuyên dùng phiên bản LTS)
-- 📌 **Android Studio** (nếu chạy trên Android)
+-  **JDK 17** → [Tải tại đây](https://www.oracle.com/java/technologies/javase/jdk17-archive-downloads.html)
+-  **Android SDK 35**
+-  **Node.js & npm** (khuyên dùng phiên bản LTS)
+-  **Android Studio** (nếu chạy trên Android)
 
 ---
-## 🚀 Hướng dẫn cài đặt
+##  Hướng dẫn cài đặt
 
 ### 1️⃣ Clone source code
 Chạy lệnh sau để tải mã nguồn về máy:
@@ -28,7 +28,7 @@ npm install
 ```
 ### 3️⃣  Chạy ứng dụng
 
-📌 **Mở ứng dụng trên Android bằng Capacitor:**
+ **Mở ứng dụng trên Android bằng Capacitor:**
 
 ```bash
 npx cap sync android
@@ -75,9 +75,3 @@ Dưới đây là cấu trúc thư mục chính của dự án:
 </p>
 
 ---
-## 🤝 Đóng góp & Liên hệ
-
-🔗 **GitHub:** [github.com/ron19102004](https://github.com/ron19102004)  
-📧 **Email:** [dungtna.22itb@vku.udn.vn](mailto:dungtna.22itb@vku.udn.vn)
-
-💡 Nếu bạn thấy dự án hữu ích, hãy **⭐ Star** repo để ủng hộ nhé! 🚀
